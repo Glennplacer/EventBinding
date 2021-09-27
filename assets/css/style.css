@@ -1,0 +1,75 @@
+html {
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #151372;
+    color: white;
+    text-align: center;
+  }
+
+  #assignment {
+    width: 50%;
+    -webkit-box-shadow: 0 2px 8px rgba(61, 41, 41, 0.26);
+            box-shadow: 0 2px 8px rgba(61, 41, 41, 0.26);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    border-bottom: 4px solid #ccc;
+    color: #151372;
+    margin: 0 0 1rem 0;
+  }
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid #424142;
+    background-color: #62545b;
+    color: #fff;
+    padding: 0.05rem 1rem;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  button:hover,
+  button:active {
+  background-color: #20f04d;
+  border-color: #20f04d;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+ p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #151372;
+    padding: 0.5rem;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+   input {
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 0.60rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }

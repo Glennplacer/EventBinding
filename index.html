@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vue Basics</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script>
+        <script src="assets/js/app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Events</h1>
+        </header>
+            <section id="assignment">
+                <h2>Event Practice</h2>
+                <button v-on:click="submit()">Show alert</button>
+                <hr />
+                <input type="text" v-on:keydown="set">
+                <p>Output: {{ output1 }}</p>
+                <hr />
+                <input type="text" v-on:keydown.enter="get">
+                <p>Output: {{ output2 }}</p>
+            </section>
+    </body>
+</html>
